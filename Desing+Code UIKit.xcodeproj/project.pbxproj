@@ -13,6 +13,10 @@
 		FE07E62B2A24959C00851320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE07E6292A24959C00851320 /* Main.storyboard */; };
 		FE07E62D2A24959C00851320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE07E62C2A24959C00851320 /* Assets.xcassets */; };
 		FE07E6302A24959C00851320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE07E62E2A24959C00851320 /* LaunchScreen.storyboard */; };
+		FE07E63D2A24B50700851320 /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07E6392A24B50700851320 /* CustomBlurView.swift */; };
+		FE07E63E2A24B50700851320 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07E63A2A24B50700851320 /* CustomUIView.swift */; };
+		FE07E63F2A24B50700851320 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07E63B2A24B50700851320 /* Font.swift */; };
+		FE07E6402A24B50700851320 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07E63C2A24B50700851320 /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,11 @@
 		FE07E62C2A24959C00851320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE07E62F2A24959C00851320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE07E6312A24959C00851320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE07E6372A24AF4A00851320 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FE07E6392A24B50700851320 /* CustomBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
+		FE07E63A2A24B50700851320 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		FE07E63B2A24B50700851320 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		FE07E63C2A24B50700851320 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +49,7 @@
 		FE07E6172A24959B00851320 = {
 			isa = PBXGroup;
 			children = (
+				FE07E6372A24AF4A00851320 /* MyPlayground.playground */,
 				FE07E6222A24959C00851320 /* Desing+Code UIKit */,
 				FE07E6212A24959C00851320 /* Products */,
 			);
@@ -56,6 +66,7 @@
 		FE07E6222A24959C00851320 /* Desing+Code UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				FE07E6382A24B50700851320 /* Helpers */,
 				FE07E6232A24959C00851320 /* AppDelegate.swift */,
 				FE07E6252A24959C00851320 /* SceneDelegate.swift */,
 				FE07E6272A24959C00851320 /* ViewController.swift */,
@@ -65,6 +76,17 @@
 				FE07E6312A24959C00851320 /* Info.plist */,
 			);
 			path = "Desing+Code UIKit";
+			sourceTree = "<group>";
+		};
+		FE07E6382A24B50700851320 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FE07E6392A24B50700851320 /* CustomBlurView.swift */,
+				FE07E63A2A24B50700851320 /* CustomUIView.swift */,
+				FE07E63B2A24B50700851320 /* Font.swift */,
+				FE07E63C2A24B50700851320 /* CustomImageView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE07E6282A24959C00851320 /* ViewController.swift in Sources */,
+				FE07E63E2A24B50700851320 /* CustomUIView.swift in Sources */,
+				FE07E63F2A24B50700851320 /* Font.swift in Sources */,
+				FE07E6402A24B50700851320 /* CustomImageView.swift in Sources */,
 				FE07E6242A24959C00851320 /* AppDelegate.swift in Sources */,
+				FE07E63D2A24B50700851320 /* CustomBlurView.swift in Sources */,
 				FE07E6262A24959C00851320 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
